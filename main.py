@@ -60,7 +60,7 @@ def predict(house: HouseFeatures):
     return {
       "predicted_price": f"${price_usd:,.0f}",
       "predicted_price_short":f"${predicted:.2f} hundred thousands",
-      "fidence_range":f"${price_usd - 32773:,.0f} to ${price_usd + 39000:,.0f}"
+      "fidence_range":f"${price_usd - 32773:,.0f} to ${price_usd + 32773:,.0f}"
     }
   
   except Exception as e:
